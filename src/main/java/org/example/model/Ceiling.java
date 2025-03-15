@@ -1,6 +1,6 @@
 package org.example.model;
 
-import org.example.enums.PaintColor;
+import org.example.model.enums.PaintColor;
 
 public class Ceiling {
 

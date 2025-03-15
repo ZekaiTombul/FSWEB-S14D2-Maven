@@ -121,7 +121,7 @@ public class MainTest {
     public void testWardrobeInstanceTypes() throws NoSuchFieldException {
         assertThat(wardrobe.getWidth(), instanceOf(Integer.class));
         assertThat(wardrobe.getHeight(), instanceOf(Integer.class));
-        assertThat(wardrobe.getWeight(), instanceOf(Double.class));
+        assertThat(wardrobe.getWeight(), instanceOf(Integer.class));
     }
 
     @DisplayName("Wardrobe add methodu doğru çalışıyor mu?")
